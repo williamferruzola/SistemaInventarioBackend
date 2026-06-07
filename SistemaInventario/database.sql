@@ -71,16 +71,16 @@ BEGIN TRY
     INSERT INTO Products (Id, CategoryId, Name, Description, ImageUrl, IsActive, CreatedAt) VALUES
         (1, 1, N'Monitor 50 pulgadas 4K',
          N'Monitor UHD 4K con panel IPS, 144Hz, HDR400.',
-         N'https://storage.inventario.com/products/monitor-4k-50.jpg', 1, GETUTCDATE()),
+         N'https://m.media-amazon.com/images/I/913Z-4-0WoL._AC_SY355_.jpg', 1, GETUTCDATE()),
         (2, 2, N'Equipo de Sonido 20000W',
          N'Sistema de audio 2.1 con woofer de 12 pulgadas y Bluetooth.',
-         N'https://storage.inventario.com/products/sonido-20000w.jpg', 1, GETUTCDATE()),
+         N'https://m.media-amazon.com/images/I/71UIyqt3MVL._AC_SX679_.jpg', 1, GETUTCDATE()),
         (3, 3, N'Laptop Gamer RTX 4060',
          N'Laptop con procesador Intel i7, 16GB RAM, SSD 512GB.',
-         N'https://storage.inventario.com/products/laptop-rtx4060.jpg', 1, GETUTCDATE()),
+         N'https://m.media-amazon.com/images/I/71sgAr9atBS._AC_SL1500_.jpg', 1, GETUTCDATE()),
         (4, 4, N'Smartphone 5G Pro',
          N'Pantalla AMOLED 6.7in, cámara 200MP, batería 5000mAh.',
-         N'https://storage.inventario.com/products/smartphone-5g.jpg', 1, GETUTCDATE());
+         N'https://m.media-amazon.com/images/I/51vYwEbmqPL._AC_SX522_.jpg', 1, GETUTCDATE());
     SET IDENTITY_INSERT Products OFF;
 
     -- 5. ProductProviders (inventario por proveedor)
