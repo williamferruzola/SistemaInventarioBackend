@@ -1,0 +1,6 @@
+@SistemaInventario_HostAddress = http://localhost:5084
+
+GET {{SistemaInventario_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
